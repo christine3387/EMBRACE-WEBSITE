@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Branding | Embrace Media Africa</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        /* NAVIGATION */
+        header {
+            background: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header a {
+            color: black;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ff5a00;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+
+        .hero h1 {
+            color: #ff5a00;
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.7;
+            color: #ddd;
+        }
+
+        /* SERVICES */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 30px 7%;
+        }
+
+        .card {
+            background: #222;
+            border: 1px solid #ff5a00;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(255, 90, 0, 0.3);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h2 {
+            color: #ff5a00;
+        }
+
+        .card p {
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+        /* CONTACT */
+        .contact {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .contact h2 {
+            color: #ff5a00;
+        }
+
+        .button {
+            display: inline-block;
+            background: #ff5a00;
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .button:hover {
+            background: white;
+            color: #111;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <a href="index.html">HOME</a>
+        <a href="index.html#services">SERVICES</a>
+        <a href="index.html#portfolio">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <h1>BRANDING</h1>
+
+        <p>
+            We help businesses and organizations create strong,
+            professional and memorable brands through creative branding
+            solutions that make your products stand out.
+        </p>
+
+    </section>
+
+
+    <!-- BRANDING SERVICES -->
+    <section class="services">
+
+        <!-- BOOK BRANDING -->
+        <div class="card">
+
+            <img src="images/book.jpg" alt="Book Branding">
+
+            <div class="card-content">
+
+                <h2>Book Branding</h2>
+
+                <p>
+                    We create attractive and professional book covers,
+                    layouts and designs that give your publications
+                    a strong visual identity.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOTTLE BRANDING -->
+        <div class="card">
+
+            <img src="images/bottle.jpg" alt="Bottle Branding">
+
+            <div class="card-content">
+
+                <h2>Bottle Branding</h2>
+
+                <p>
+                    We design professional bottle labels and branding
+                    that make your products attractive and recognizable.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- T-SHIRT BRANDING -->
+        <div class="card">
+
+            <img src="images/T shirt.jpg" alt="T-Shirt Branding">
+
+            <div class="card-content">
+
+                <h2>T-Shirt Branding</h2>
+
+                <p>
+                    We create custom T-shirt designs for businesses,
+                    organizations, events and personal brands.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- LOGO BRANDING -->
+        <div class="card">
+
+            <img src="images/Logo .PNG" alt="Logo Branding">
+
+            <div class="card-content">
+
+                <h2>Logo Branding</h2>
+
+                <p>
+                    We design unique logos that represent your business
+                    and help create a strong and recognizable identity.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact">
+
+        <h2>READY TO BUILD YOUR BRAND?</h2>
+
+        <p>
+            Let Embrace Media help you create a brand that stands out.
+        </p>
+
+        <a href="contact.html" class="button">
+            START A PROJECT
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>© 2026 Embrace Media Africa. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
